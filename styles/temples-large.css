@@ -1,0 +1,36 @@
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav li {
+        flex: 1;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    main {
+        max-width: 80%;
+    }
+
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    figure {
+        padding: 10px;
+    }
+
+    figure img {
+        width: 100%;
+        height: auto;
+    }
+}
