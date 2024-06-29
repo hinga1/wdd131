@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const windElement = document.getElementById('wind');
     const windChillElement = document.getElementById('windchill');
 
-    // OpenWeatherMap API key and endpoint for Nairobi, Kenya
-    const apiKey = 'f9d2a96db775a35ad92883830755ade4'; // Replace with your OpenWeatherMap API key
+    
+    const apiKey = 'f9d2a96db775a35ad92883830755ade4'; 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Nairobi,KE&units=metric&appid=${apiKey}`;
 
     function calculateWindChill(temp, speed) {
