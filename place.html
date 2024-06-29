@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Title</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Kenya</h1>
+    </header>
+    <main>
+        <section class="data">
+            <h2>Data</h2>
+            <p>Area: 580,367 sq km</p>
+            <p>Population: 51,525,602</p>
+            <p>Capital: Nairobi</p>
+            <p>Languages: Swahili, English</p>
+            <p>Currecy: Kenyan Shilling</p>
+            <p>Time Zone: UTC +3</p>
+            <p>Calling Code: +254</p>
+            <p>Internet TLD: .ke</p>
+        </section>
+        <section class="weather">
+            <h2>Weather <span class="weather-icon">⛅</span></h2>
+            <p>Temperature: <span id="temperature">Loading...</span></p>
+            <p>Conditions: <span id="conditions">Loading...</span></p>
+            <p>Wind: <span id="wind">Loading...</span></p>
+            <p>Wind Chill: <span id="windchill">N/A</span></p>
+        </section>
+        <picture>
+            <source srcset="images/Flag_of_Kenya.svg.png" media="(max-width: 500px)">
+            <source srcset="images/Flag_of_Kenya.svg.png" media="(max-width: 1000px)">
+            <img src="images/Flag_of_Kenya.svg.png" alt="Hero Photo" class="hero-image">
+        </picture>
+        
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> *David Kamau Hinga* Kenya </p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

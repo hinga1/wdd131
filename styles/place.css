@@ -1,0 +1,74 @@
+:root {
+    --main-color: purple; /* Example color, customize as needed */
+    --secondary-color: #00ff00;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.data, .weather {
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    margin: 10px;
+    background-color: white; /* Ensure the sections have a background color */
+}
+
+.weather-icon {
+    content: url('images/weather-icon.svg'); /* Path to SVG */
+}
+
+h2{
+    color: white;
+    background-color: green;
+}
+
+@media (min-width: 600px) {
+    .data, .weather {
+        width: 30%;
+        position: absolute;
+        top: 10%;
+    }
+
+    .data {
+        left: 5%;
+    }
+
+    .weather {
+        right: 5%;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+        order: 1;
+    }
+}
+
+@media (min-width: 1000px) {
+    .weather h2::after {
+        content: '⛅';
+        margin-left: 10px;
+    }
+}
