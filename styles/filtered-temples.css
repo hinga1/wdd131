@@ -42,6 +42,10 @@ nav ul li a.active, nav ul li a:hover {
     padding: 20px;
 }
 
+h2 {
+    text-align: center;
+}
+
 figure {
     border: 1px solid #ddd;
     border-radius: 5px;
