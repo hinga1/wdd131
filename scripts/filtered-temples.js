@@ -53,14 +53,14 @@ const temples = [
         location: "Salt Lake City, Utah, United States",
         dedicated: "1893, April, 6",
         area: 253015,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-utah/400x250/salt-lake-temple-1618801-wallpaper.jpg"
+        imageUrl: "https://www.churchofjesuschrist.org/bc/content/temples/photo-galleries/salt-lake-utah/400x250/salt-lake-temple-1618801-wallpaper.jpg"
     },
     {
         templeName: "Rome Italy",
         location: "Rome, Italy",
         dedicated: "2019, March, 10",
         area: 40000,
-        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/400x250/rome-italy-temple-lds-593579-wallpaper.jpg"
+        imageUrl: "https://www.churchofjesuschrist.org/bc/content/temples/photo-galleries/rome-italy/400x250/rome-italy-temple-lds-593579-wallpaper.jpg"
     }
 ];
 
