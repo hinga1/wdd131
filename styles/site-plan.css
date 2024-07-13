@@ -1,0 +1,38 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5DC;
+    margin: 0;
+    padding: 0;
+}
+
+header, section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+}
